@@ -1,12 +1,11 @@
 export default {
   colors: {
-    red: {
-      primary: '#EB5757',
-      light: '#EB5780',
-      dark: '#EB5740',
+    blue: {
+      primary: '#6066D0CC',
+      secondary: '#2F527B',
     },
-    gray: {
-      3: '#828282',
+    white: {
+      primary: '#F2F2F2',
     },
   },
 };
