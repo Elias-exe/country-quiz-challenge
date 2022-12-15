@@ -1,6 +1,12 @@
 import { Container } from './styles';
 
+import RestCountries from '../../api/RestCountries';
+
 export default function Card() {
+  const { data } = RestCountries();
+
+  console.log(data);
+
   return (
     <Container>
       <h1 className="quizQuestion">Kuala Lumpur is the capital of</h1>
