@@ -9,7 +9,17 @@ export const Container = styled.div`
   width: 100%;
   max-width:464px;
 
+  .quizFlag{
+    color:${({ theme }) => theme.colors.blue.primary};
+    font-size:84px;
+  }
+
   .quizQuestion{
-    color:${({ theme }) => theme.colors.blue.primary}
+    font-size: 24px;
+    color:${({ theme }) => theme.colors.blue.terciary};
+  }
+
+  .buttonContainer{
+    margin-bottom: 64px;
   }
 `;
